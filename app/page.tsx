@@ -1,5 +1,12 @@
-import Image from "next/image";
+import type { NextPage } from 'next';
+import Desktop from './components/Desktop';
 
-export default function Home() {
-  return <main className="text-xl text-green-300">hello</main>;
-}
+const Home: NextPage = () => {
+  return (
+    <div>
+      <Desktop />
+    </div>
+  );
+};
+
+export default Home;
